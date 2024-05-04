@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- Outfit font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Our css -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body style="background-color: hsl(217, 54%, 11%)">
+    <!-- Bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <div
+      class="container-fluid d-flex justify-content-center align-items-center"
+      style="height: 100vh"
+    >
+      <div
+        class="card"
+        style="
+          background-color: hsl(216, 50%, 16%);
+          width: 300px;
+          border-radius: 14px;
+        "
+      >
+        <div class="card-body">
+          <img
+            class="img-fluid rounded mb-3"
+            src="images/image-equilibrium.jpg"
+            alt="nft_image"
+          />
+          <p class="nft-name-text">Equilibrium #3429</p>
+          <p class="nft-description-text">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+
+          <div class="d-flex justify-content-between">
+            <div style="display: flex; align-items: center">
+              <img
+                src="images/icon-ethereum.svg"
+                alt="eth-image"
+                style="margin-right: 5px"
+              />
+              <p class="price-text">0.041 ETH</p>
+            </div>
+
+            <div style="display: flex; align-items: center">
+              <img
+                src="images/icon-clock.svg"
+                alt="clock-image"
+                style="margin-right: 5px"
+              />
+              <p class="time-text">3 days left</p>
+            </div>
+          </div>
+
+          <hr
+            style="
+              height: 2px;
+              background-color: hsl(215, 32%, 27%);
+              border: none;
+            "
+          />
+
+          <div class="d-flex justify-content-start">
+            <img
+              style="
+                margin-right: 15px;
+                height: 30px;
+                border: 1px solid white;
+                border-radius: 50%;
+              "
+              src="images/image-avatar.png"
+              alt="image-avatar"
+            />
+
+            <p
+              style="
+                font-size: 15px;
+                font-family: Outfit;
+                margin: 0;
+                color: hsl(215, 51%, 70%);
+              "
+            >
+              Creation of
+              <span class="name">Jules Wyvern</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- Equilibrium #3429 Our Equilibrium collection promotes balance and calm.
+    0.041 ETH 3 days left Creation of Jules Wyvern -->
